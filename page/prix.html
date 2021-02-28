@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>mon logement</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+        <!-- Bootstrap core CSS -->
+        <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm p-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Résidence Alphonse</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">index</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="loger.html">se loger</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="accueil.html">accueil</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <p> 
+            <div class="p-3 mb-2 bg-primary text-white">
+              Nos vous offrons le meilleur qualités prix sur tous nos logements <br>
+            </div>  
+            </p>
+            <div class="container-fluid mb-4" style="height: 600px;">
+                <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../Docs/Image/img-banner.jpg" style="height: 600px;" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Docs/Image/img-banner.jpg" style="height: 600px;" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../Docs/Image/img-banner.jpg" style="height: 600px;" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+    
+              <div class="row container m-auto">
+                <div class="col-md-3 m-3">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Chercher un local...">
+                    </div>
+                    <div class="col-md-12">
+                      <input type="number" class="form-control" placeholder="Nombre de jour">
+                    </div>
+                    <div class="col-md-12">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Nombre de chambre</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3"> Plus de 3 </option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          moins 20 000 / jr
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          moins 40 000 / jr
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                          moins 100 000 / jr
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-primary mb-3 w-100">Filtrer</button>
+                    </div>
+                  </form>
+                </div>
+                <h2> NOS DIFFERENTS PRIX</h2>
+                    <!-- On tables -->
+
+    <table class="table-primary">CHAMBRE STANDARDS
+            <!-- On rows -->
+        <span class="border border-danger">
+            <tr class="table-primary"></tr>
+            <tr class="table-secondary">...</tr>
+            <tr class="table-success">...</tr>
+            <tr class="table-danger">...</tr>
+
+        <!-- On cells (`td` or `th`) -->
+            <tr>
+                 <td class="table-primary">...</td>
+                 <td class="table-secondary">...</td>
+                 <td class="table-success">...</td>
+                 <td class="table-dark">...</td>
+             </tr>
+         </span>
+    </table>
+               <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+        </body>
+            <!-- Bootstrap core js -->
+            <script src="../js/bootstrap.min.js"></script>
+    </html>
